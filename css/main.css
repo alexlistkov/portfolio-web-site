@@ -9,10 +9,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1000px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row {
@@ -115,9 +121,8 @@
 
 #greetings {
     margin-top: 0px;
-    margin: auto;
     padding-left: 15px;
-    font-size: 48px;
+    font-size: 56px;
     color: grey;
 }
 
@@ -131,7 +136,7 @@ h3 {
 #myprojects2 {
     text-align: center;
     color: grey;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 h4 {
