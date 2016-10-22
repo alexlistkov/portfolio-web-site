@@ -6,10 +6,13 @@
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -19,6 +22,10 @@ img, embed, object, video {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
 }
 
 .row {
@@ -77,7 +84,7 @@ img, embed, object, video {
 }
 
 #firstrow {
-    background-color: #33BEBE;
+    background-color: #33bebe;
 }
 
 #photo {
@@ -89,7 +96,7 @@ img, embed, object, video {
 }
 
 #name {
-    color: #F0FFFF;
+    color: #f0ffff;
     text-align: right;
     font-weight: normal;
     margin-top: 10px;
@@ -98,7 +105,7 @@ img, embed, object, video {
 }
 
 #description {
-    color: #F0FFFF;
+    color: #f0ffff;
     text-align: right;
     font-weight: normal;
     margin-top: 25px;
@@ -119,10 +126,18 @@ img, embed, object, video {
     width: 100%;
 }
 
-#greetings {
-    margin-top: 0px;
+#header {
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 15px;
-    font-size: 56px;
+    font-size: 42px;
+    color: grey;
+}
+
+p {
+    margin-top: 0;
+    padding-left: 15px;
+    font-size: 52px;
     color: grey;
 }
 
@@ -137,6 +152,12 @@ h3 {
     text-align: center;
     color: grey;
     font-size: 14px;
+}
+
+#pic1,
+#pic2,
+#pic3 {
+    min-width: 300px;
 }
 
 h4 {
