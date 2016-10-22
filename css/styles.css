@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+    #box1, #box2, #box3 {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #greetings {
+        font-size: 28px;
+    }
+    #box1, #box2, #box3 {
+        font-size: 18px;
+    }
+}
+
